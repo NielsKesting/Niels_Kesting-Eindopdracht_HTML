@@ -1,0 +1,99 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: #fff;
+    background-color: #6a6a6a;
+    margin: 0px;
+}
+
+/* Header */
+header{
+    margin-bottom: 15px;
+}
+.title{
+    background-color: #464646;
+    padding: 25px 0px 25px 5px;
+    margin: 0px 0px -19px 0px;
+}
+nav{
+    word-spacing: 5px;
+    background-color: #ff7a00;
+    padding-left: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: #000;
+}
+a:visited{
+    color: none;
+}
+/* /header */
+
+/* main */
+.textblock1{
+    width: 90%;
+    font-size: 14px;
+    background-color: #464646;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 5px #ff7a00 solid;
+    margin: 0px 0px 15px 0px;
+}
+.textblock2{
+    width: 90%;
+    font-size: 14px;
+    background-color: #464646;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 5px #ff7a00 solid;
+}
+.textblock3{
+    width: 100%;
+    font-size: 14px;
+    background-color: #464646;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 5px #ff7a00 solid;
+    margin: 0px 0px 15px 0px;
+}
+
+.picture{
+    width: 80vw;
+    border-bottom: 5px #ff7a00 solid;
+}
+.meme{
+    width: 300px;
+    border: 5px #ff7a00 solid;
+    margin: 5px;
+}
+
+.labelbox{
+    margin: 5px 0px 15px 0px;
+}
+.contactbox{
+    width: 100%;
+    color: #6D6D6D;
+    background-color: #c4c4c4;
+    padding: 5px 0px 5px 0px;
+    border: none;
+}
+.button{
+    width: 20%;
+    background-color: #c4c4c4;
+    border: none;
+}
+
+.memelink{
+    color: #ff7a00;
+}
+
+.contactform{
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    }
+.buttons{
+    margin-top: 20px;
+}
+/* /main */

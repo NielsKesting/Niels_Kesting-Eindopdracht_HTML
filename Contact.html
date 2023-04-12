@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Memes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Memes</h1>
+        <nav>
+            <h3>
+                <a href="index.html">Home</a>
+                <a href="memes.html">Memes</a>
+                <a href="contact.html">Contact</a>
+            </h3>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contactpage">
+            <p class="textblock1">
+                Vul hier je gegevens in om contact met ons te leggen. Je kunt een verzoek indienen voor specifieke
+                memes, of
+                ons informeren wat de laatste trends zijn.
+            </p>
+
+            <form class="textblock2" name="contact" method="POST" data-netlify="true">
+                <div class="contactform">
+                    <div class="labelbox">
+                        <label>Naam</label>
+                        <input class="contactbox" type="text" name="Naam">
+                    </div>
+                    <div class="labelbox">
+                        <label>Email</label>
+                        <input class="contactbox" label="Email" type="email" name="Email">
+                    </div>
+                    <div class="labelbox">
+                        <label>Telefoon</label>
+                        <input class="contactbox" type="tel" name="Telefoon">
+                    </div>
+                    <div class="labelbox">
+                        <label>Geboortedatum</label>
+                        <input class="contactbox" type="date" name="Geboortedatum">
+                    </div>
+                    <div class="labelbox">
+                        <label>Bericht</label>
+                        <input class="contactbox" type="text" name="Bericht">
+                    </div>
+                    <div class="buttons">
+                        <button class="button" type="reset">Reset</button>
+                        <button class="button" type="submit">Verzend</button>
+                    </div>
+                </div>
+            </form>
+
+            <img class="picture" src="Pictures/thanks_mate.jpg">
+        </div>
+    </main>
+</body>
+
+</html>

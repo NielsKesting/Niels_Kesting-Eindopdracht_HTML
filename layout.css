@@ -1,0 +1,66 @@
+@media (min-width: 720px){
+    .title{
+        background-color: #464646;
+        padding: 25px 0px 25px 8.33%;
+        margin: 0px 0px -19px 0px;
+    }
+    nav{
+        background-color: #ff7a00;
+        padding-left: 8.33%;
+    }
+
+    .homepage{
+        display: grid;
+        grid-template: 100px auto / repeat(12, 8.33%);
+        grid-template-areas:
+        ". t1 t1 t1 t1 t1 t1 t1 p p p ."
+        ". t2 t2 t2 t2 t2 t2 t2 . . . .";
+    }
+
+    .memepage{
+        display: grid;
+        grid-template: auto auto auto / 8.33% auto 8.33%;
+        grid-template-areas: 
+        ". me ."
+        ". t3 ."
+        ". rr .";
+    }
+    .memes{
+        grid-area: me;
+        grid-column: 2;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .rickroll{
+        grid-area: rr;
+        border: 5px #ff7a00 solid;
+        margin: 5px;
+    }
+
+    .contactpage{
+        display: grid;
+        grid-template:  200px auto / repeat(12, 8.33%);
+        grid-template-areas:
+        ". t1 t1 t1 t1 t1 t1 t1 p p p ."
+        ". t2 t2 t2 t2 t2 t2 t2 . . . .";
+    }
+
+
+
+    .textblock1{
+        grid-area: t1;
+    }
+    .textblock2{
+        grid-area: t2;
+    }
+    .textblock3{
+        grid-area: t3;
+    }
+    .picture{
+        grid-area: p;
+        width: 100%;
+        border-bottom: 5px #ff7a00 solid;
+    }
+
+}
